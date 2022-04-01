@@ -6,6 +6,7 @@
 @import "screen-header.css";
 @import "friends.css";
 @import "user-component.css";
+@import "badge.css";
 
 body { 
     color: #573400;

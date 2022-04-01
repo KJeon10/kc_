@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Friends - Talk</title>
+    <title>Chats - Talk</title>
 </head>
 
 <body>
@@ -25,9 +25,10 @@
 
 
     <header class="screen-header">
-        <h1 class="screen-header__title">Friends</h1>
+        <h1 class="screen-header__title">Chats</h1>
         <div class="screen-header__icons">
             <span><i class="fa-regular fa-magnifying-glass fa-2x"></i></span>
+            <span><i class="fa-regular fa-message-plus fa-2x"></i></span>
             <span><i class="fa-regular fa-music fa-2x"></i></span>
             <span><i class="fa-regular fa-gear fa-2x"></i></span>
     
@@ -35,44 +36,23 @@
         
     </header>
     
-<a id="friends-display-link">
-    <i class="fa-solid fa-circle-info"></i>
-    Friends' Names Display <i class="fa-solid fa-chevron-right fa-xs"></i>
-</a>
 
 <main class="friends-screen">
 
     <div class="user-component">
         
         <div class="user-component__column">
-            <img src="img-data/profile-main.png" class="user-component__avatar user-component__avatar--xl"/>
+            <img src="img-data/profile-main.png" class="user-component__avatar user-component__avatar"/>
             <div class="user-component__text">
                 <h4 class="user-component__title">JEON</h4>
-                <!--<h6 class="user-component__subtitle">any text will be here</h6>-->
+                <h6 class="user-component__subtitle">any text will be here</h6>
             </div>
         </div>
-        <div class="user-component__column"></div>
-    </div>
-    <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-            <span>Channel</span>
-
-</div>
-<i class="fa-solid fa-chevron-up"></i>
-</div>
-<div class="user-component">
-        
-    <div class="user-component__column">
-        <img src="img-data/profile-main.png" class="user-component__avatar user-component__avatar--sm"/>
-        <div class="user-component__text">
-            <h4 class="user-component__title user-component__title--not-bold">Channel</h4>
-            <!--<h6 class="user-component__subtitle">any text will be here</h6>-->
+        <div class="user-component__column">
+            <span class="user-component__time">21:22</span>
+            <div class="badge">1</div>
         </div>
     </div>
-    <div class="user-component__column">
-        <span>2</span>
-    </div>
-</div>
 
 </main>
 
@@ -83,14 +63,14 @@
         <ul class="nav__ul">
             <li class="nav__button">
                 <a class="nav__link" href="friends.html">
-                    <i class="fa-solid fa-user fa-2x"></i></a></li>
+                    <i class="fa-regular fa-user fa-2x"></i></a></li>
             <li class="nav__button">
                 <a class="nav__link" href="chats.html">
                     <span class="nav__notification badge">1</span>
                     <i class="fa-regular fa-messages fa-2x"></i></i></a></li>
             <li class="nav__button">
                 <a class="nav__link" href="find.html">
-                    <i class="fa-regular fa-magnifying-glass fa-2x"></i></a></li>
+                    <i class="fa-solid fa-magnifying-glass fa-2x"></i></a></li>
             <li class="nav__button">
                 <a class="nav__link" href="more.html">
                     <span class="ellipsis-notification"></span>
