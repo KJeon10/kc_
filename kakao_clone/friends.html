@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Talk</title>
+    <title>Friends - Talk</title>
 </head>
 <body>
     <div class="status-bar">
@@ -20,19 +20,27 @@
         </div>
     </div>
 
-    <header class="welcome-header">
-        <h1 class="welcome-header__title">Welcome to Talk</h1>
-        <p class="welcome-header__text">If you have any account, log in with your email or phone number.</p>
-    </header>
+    <nav class="nav">
+        <ul class="nav__ul">
+            <li class="nav__button">
+                <a class="nav__link" href="friends.html">
+                    <i class="fa-solid fa-user fa-2x"></i></a></li>
+            <li class="nav__li">
+                <a class="nav__link" href="#">
+                    <i class="fa-regular fa-messages fa-2x"></i></i></a></li>
+            <li class="nav__button">
+                <a class="nav__link" href="#">
+                    <i class="fa-regular fa-magnifying-glass fa-2x"></i></a></li>
+            <li class="nav__button">
+                <a class="nav__link" href="#">
+                    <i class="fa-light fa-ellipsis-stroke fa-2x"></i></a></li>
+        </ul>
+    </nav>
 
-    <form action="friends.html" method="get" class="login-form">
-        <input required name ="username" type="text", placeholder="Email or phone number">
-        <input required name ="password" type="password", placeholder="Password">
-        <input type="submit" value="Log In">
-        <a href="#">Find account or Password</a>
-    </form>
 
-    
+
+
+
 
     <script src="https://kit.fontawesome.com/5ee9a9f807.js" crossorigin="anonymous"></script>
 </body>
